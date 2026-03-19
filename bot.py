@@ -280,7 +280,7 @@ async def cmd_banall(client, message: Message):
 
         # Her 25 kişide bir较长 bekle (spam koruma)
         if (i + 1) % 25 == 0:
-            await asyncio.sleep(5)
+            await asyncio.sleep(2)
 
     # ========== SONUÇ ==========
     elapsed = round(time.time() - start, 1)
