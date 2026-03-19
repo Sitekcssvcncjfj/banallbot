@@ -3,6 +3,3 @@ __pycache__/
 *.session-journal
 .env
 .venv/
-venv/
-*.pyc
-.DS_Store
